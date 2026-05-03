@@ -1,0 +1,356 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adverra Digital Marketing | Premium Growth Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfd;
+            color: #1a1a1a;
+        }
+        h1, h2, h3, .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.04), 0 4px 10px -4px rgba(0, 0, 0, 0.02);
+        }
+        .card-shadow:hover {
+            box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.07);
+            transform: translateY(-4px);
+            transition: all 0.3s ease;
+        }
+        .service-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+        .floating-wa {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 glass-nav">
+        <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-2xl font-bold tracking-tight text-blue-600 font-poppins">
+                ADVERRA
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#portfolio" class="hover:text-blue-600 transition-colors">Portfolio</a>
+                <a href="#testimonials" class="hover:text-blue-600 transition-colors">Reviews</a>
+                <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+            </div>
+            <a href="https://wa.me/919213525165" class="bg-blue-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-blue-700 transition-all">Get Quote</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-40 pb-20 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">Elevate Your Digital Presence</span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-8 tracking-tight text-gray-900 leading-tight">
+                Data-Driven Marketing <br class="hidden md:block"> for <span class="text-blue-600">Premium Growth.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Adverra helps ambitious Indian brands scale through precision-targeted ads, stunning content, and high-converting strategy.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#portfolio" class="bg-gray-900 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-black transition-all">View Our Work</a>
+                <a href="#services" class="bg-white border border-gray-200 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+            <div class="w-full md:w-1/2">
+                <div class="relative">
+                    <div class="bg-blue-100 rounded-3xl w-full aspect-square md:aspect-video flex items-center justify-center overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt="Team" class="object-cover w-full h-full opacity-90">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl hidden lg:block">
+                        <p class="text-4xl font-bold text-blue-600">500+</p>
+                        <p class="text-sm text-gray-500 font-medium uppercase">Projects Delivered</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Partnering with brands that shape the future.</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Based in India's leading business hubs, Adverra Digital Marketing is a full-service powerhouse. We don't just "run ads"; we build ecosystems that convert strangers into loyal customers.
+                </p>
+                <div class="grid grid-cols-2 gap-6 mb-8">
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-1">Rajkot Hub</h4>
+                        <p class="text-sm text-gray-500">Regional Expertise</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-1">ROI Focus</h4>
+                        <p class="text-sm text-gray-500">Measurable Impact</p>
+                    </div>
+                </div>
+                <button class="text-blue-600 font-bold flex items-center gap-2 group">
+                    Learn More About Us <span class="group-hover:translate-x-1 transition-transform">→</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Core Expertise</h2>
+                <p class="text-gray-500">Tailored solutions for maximum digital impact.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- S1 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">S</div>
+                    <h3 class="text-xl font-bold mb-3">Social Media Management</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">End-to-end management for Instagram, Facebook, and LinkedIn.</p>
+                </div>
+                <!-- S2 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">P</div>
+                    <h3 class="text-xl font-bold mb-3">Paid Ads (Meta + Google)</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Hyper-targeted performance marketing aimed at direct sales.</p>
+                </div>
+                <!-- S3 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-purple-500 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">C</div>
+                    <h3 class="text-xl font-bold mb-3">Content & Video Creation</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">High-production reels, product shoots, and viral storytelling.</p>
+                </div>
+                <!-- S4 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-orange-500 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">B</div>
+                    <h3 class="text-xl font-bold mb-3">Branding & Design</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Premium brand identities, logos, and visual guidelines.</p>
+                </div>
+                <!-- S5 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-cyan-500 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">W</div>
+                    <h3 class="text-xl font-bold mb-3">Websites & Landing Pages</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Fast, SEO-friendly, and optimized for high conversions.</p>
+                </div>
+                <!-- S6 -->
+                <div class="bg-white p-8 rounded-3xl card-shadow">
+                    <div class="w-14 h-14 bg-indigo-500 rounded-2xl flex items-center justify-center mb-6 text-white text-2xl font-bold">E</div>
+                    <h3 class="text-xl font-bold mb-3">E-commerce Growth</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Scaling Shopify and Woo stores via advanced funneling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Portfolio</h2>
+                    <p class="text-gray-500 max-w-md">20 highlighted success stories from dynamic Indian markets including Rajkot, Ahmedabad, and Mumbai.</p>
+                </div>
+                <div class="flex gap-2">
+                    <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-xs font-bold uppercase tracking-wider">India Wide</span>
+                </div>
+            </div>
+
+            <!-- Grid -->
+            <div id="portfolio-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-gray-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-blue-600 text-4xl mb-4">“</div>
+                    <p class="text-gray-600 mb-6 italic">"Adverra transformed our Rajkot-based jewelry brand. Our sales tripled within just 3 months of their Meta ad strategy."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200"></div>
+                        <div>
+                            <p class="font-bold text-sm">Amit Shah</p>
+                            <p class="text-xs text-gray-400">Founder, Royal Gems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-blue-600 text-4xl mb-4">“</div>
+                    <p class="text-gray-600 mb-6 italic">"The branding work for our Mumbai startup was world-class. They really understood our vision for luxury real estate."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200"></div>
+                        <div>
+                            <p class="font-bold text-sm">Priya Mehta</p>
+                            <p class="text-xs text-gray-400">CEO, Skyline Living</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-blue-600 text-4xl mb-4">“</div>
+                    <p class="text-gray-600 mb-6 italic">"Professional, data-driven, and highly creative. Best digital marketing partner in Ahmedabad hands down."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200"></div>
+                        <div>
+                            <p class="font-bold text-sm">Vikram Patel</p>
+                            <p class="text-xs text-gray-400">Director, VP Pharma</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-blue-600 rounded-[3rem] p-12 md:p-20 text-white flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6">Let's build something <br> legendary.</h2>
+                    <p class="text-blue-100 text-lg mb-10">We're currently accepting new projects for 2026. Schedule a free audit for your brand.</p>
+                    <div class="space-y-4">
+                        <a href="tel:+919213525165" class="flex items-center justify-center md:justify-start gap-3 hover:text-blue-200 transition-colors">
+                            <span class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs">📞</span>
+                            +91 92135 25165
+                        </a>
+                        <a href="https://wa.me/919274436018" class="flex items-center justify-center md:justify-start gap-3 hover:text-blue-200 transition-colors">
+                            <span class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs">💬</span>
+                            +91 92744 36018
+                        </a>
+                        <div class="flex items-center justify-center md:justify-start gap-3">
+                            <span class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs">📍</span>
+                            Rajkot • Ahmedabad • Mumbai
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="bg-white rounded-3xl p-8 text-gray-900 shadow-2xl">
+                        <form class="space-y-4">
+                            <div>
+                                <label class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Full Name</label>
+                                <input type="text" placeholder="John Doe" class="w-full p-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none text-sm">
+                            </div>
+                            <div>
+                                <label class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Brand Name</label>
+                                <input type="text" placeholder="Your Business" class="w-full p-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none text-sm">
+                            </div>
+                            <div>
+                                <label class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">What do you need help with?</label>
+                                <select class="w-full p-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none text-sm appearance-none">
+                                    <option>Paid Ads Management</option>
+                                    <option>Social Media Growth</option>
+                                    <option>Brand Identity</option>
+                                    <option>Full Digital Ecosystem</option>
+                                </select>
+                            </div>
+                            <button type="button" class="w-full py-5 bg-blue-600 text-white rounded-xl font-bold text-sm shadow-lg hover:bg-blue-700 transition-all">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="text-2xl font-bold text-blue-600 mb-6 font-poppins">ADVERRA</div>
+            <div class="flex justify-center gap-6 text-sm text-gray-500 mb-8">
+                <a href="#" class="hover:text-blue-600">Instagram</a>
+                <a href="#" class="hover:text-blue-600">LinkedIn</a>
+                <a href="#" class="hover:text-blue-600">Twitter</a>
+                <a href="#" class="hover:text-blue-600">Behance</a>
+            </div>
+            <p class="text-xs text-gray-400 uppercase tracking-widest">&copy; 2026 Adverra Digital Marketing. Built for Growth.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919213525165" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl floating-wa hover:scale-110 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+    </a>
+
+    <script>
+        const portfolioData = [
+            { name: "Royal Diamond Boutique", city: "Rajkot", service: "Social Media", icon: "S", color: "bg-blue-600" },
+            { name: "Ahmedabad Tech Expo", city: "Ahmedabad", service: "Paid Ads", icon: "P", color: "bg-green-500" },
+            { name: "Surat Silk Mills", city: "Surat", service: "Branding", icon: "B", color: "bg-orange-500" },
+            { name: "Mumbai Luxe Real Estate", city: "Mumbai", service: "Website", icon: "W", color: "bg-cyan-500" },
+            { name: "Organic Farms", city: "Rajkot", service: "E-commerce", icon: "E", color: "bg-indigo-500" },
+            { name: "Precision Hardware", city: "Jamnagar", service: "Social Media", icon: "S", color: "bg-blue-600" },
+            { name: "Spark Fitness Gym", city: "Ahmedabad", service: "Paid Ads", icon: "P", color: "bg-green-500" },
+            { name: "Vibrant Gujarat Tours", city: "Gandhinagar", service: "Website", icon: "W", color: "bg-cyan-500" },
+            { name: "Urban Cafe Chain", city: "Mumbai", service: "Social Media", icon: "S", color: "bg-blue-600" },
+            { name: "Zenith Electronics", city: "Surat", service: "Branding", icon: "B", color: "bg-orange-500" },
+            { name: "Cloud9 Coworking", city: "Ahmedabad", service: "Paid Ads", icon: "P", color: "bg-green-500" },
+            { name: "Rajkot Motors", city: "Rajkot", service: "Analytics", icon: "A", color: "bg-pink-500" },
+            { name: "HealthFirst Pharma", city: "Vadodara", service: "E-commerce", icon: "E", color: "bg-indigo-500" },
+            { name: "Signature Homes", city: "Mumbai", service: "Branding", icon: "B", color: "bg-orange-500" },
+            { name: "Dazzle Jewelers", city: "Surat", service: "Social Media", icon: "S", color: "bg-blue-600" },
+            { name: "TechNova Solutions", city: "Ahmedabad", service: "Website", icon: "W", color: "bg-cyan-500" },
+            { name: "Pure Water Systems", city: "Rajkot", service: "Paid Ads", icon: "P", color: "bg-green-500" },
+            { name: "Gourmet Kitchen", city: "Mumbai", service: "Content", icon: "C", color: "bg-purple-500" },
+            { name: "Apex Logistics", city: "Ahmedabad", service: "Analytics", icon: "A", color: "bg-pink-500" },
+            { name: "Vedic Spa & Wellness", city: "Surat", service: "Branding", icon: "B", color: "bg-orange-500" }
+        ];
+
+        function renderPortfolio() {
+            const grid = document.getElementById('portfolio-grid');
+            portfolioData.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "bg-white p-6 rounded-3xl border border-gray-100 card-shadow flex flex-col items-center text-center";
+                card.innerHTML = `
+                    <div class="w-20 h-20 ${item.color} rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6 shadow-lg">
+                        ${item.icon}
+                    </div>
+                    <div class="mb-4">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-blue-600 bg-blue-50 px-3 py-1 rounded-full">${item.service}</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-gray-900 mb-1">${item.name}</h4>
+                    <p class="text-sm text-gray-400 font-medium">${item.city}</p>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        window.onload = renderPortfolio;
+    </script>
+
+</body>
+</html>
+
+```
